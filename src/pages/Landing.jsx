@@ -40,9 +40,9 @@ const Landing = () => {
         </div>
       </div>
       <div className="mt-52 inline-flex space-x-6" data-aos="fade-up-left">
-      <FaLinkedin  size={30} className="text-blue-600"/>
-      <FaGithub size={30}/>
-      <FaSquareInstagram size={30} className="text-pink-600"/>
+      <a href="https://www.linkedin.com/in/hirwa-tresor-4091922b6"><FaLinkedin  size={30} className="text-blue-600"/></a>
+      <a href="https://github.com/bigwave819"><FaGithub size={30}/></a>
+      <a href="https://www.instagram.com/_big_wave._/"><FaSquareInstagram size={30} className="text-pink-600"/></a>
       </div>
     </div>
   );
