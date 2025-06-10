@@ -50,10 +50,10 @@ const Header = () => {
       {/* Navigation Links */}
       <nav className={`absolute md:static top-20 left-0 w-full md:w-auto bg-white dark:bg-gray-950 dark:text-gray-200 md:flex space-x-5 text-center md:text-left ${menuOpen ? "block" : "hidden"}`} data-aos="fade-left">
         <ul className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-5 font-normal p-6 md:p-0">
-          <li><a href="#about" className="text-2xl block">About</a></li>
-          <li><a href="#skills" className="text-2xl block">Skills</a></li>
-          <li><a href="#projects" className="text-2xl block">Projects</a></li>
-          <li><a href="#contact" className="text-2xl block">Contact</a></li>
+          <li><a href="#about" className="text-2xl block"><a href="#about">About</a></a></li>
+          <li><a href="#skills" className="text-2xl block"><a href="#skills">Skills</a></a></li>
+          <li><a href="#projects" className="text-2xl block"><a href="#project">Projects</a></a></li>
+          <li><a href="#contact" className="text-2xl block"><a href="#contact">Contact</a></a></li>
         </ul>
       </nav>
       
