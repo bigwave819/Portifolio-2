@@ -3,7 +3,7 @@ import { Dialog } from "@headlessui/react";
 import CarTwo from "../assets/car2.png";
 import Bra from "../assets/bra.jpg";
 import Anime from "../assets/anime.jpg";
-import Team from "../assets/Team.jpg";
+import Team from "../assets/team.jpg";
 import Vr from "../assets/vr.jpg";
 import CarOne from "../assets/car one.png";
 import AOS from "aos";
